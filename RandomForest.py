@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import GridSearchCV
 
-from XGBoost import preprocess_Telco_customer_churn_data
+from Telco_customer_churn_data import preprocess_Telco_customer_churn_data
 
 filename = 'data/Telco_customer_churn.csv'
 X_train, X_test, y_train, y_test = preprocess_Telco_customer_churn_data(filename)
