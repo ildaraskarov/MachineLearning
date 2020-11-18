@@ -2,6 +2,7 @@ import pandas as np
 import pandas as pd
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import balanced_accuracy_score, roc_auc_score, make_scorer
 from sklearn.metrics import confusion_matrix, plot_confusion_matrix
